@@ -1,0 +1,62 @@
+---- Dialog_carnum Matches (65 in 6 files) ----
+Dialog_carnum.cpp:Dialog_carnum::Dialog_carnum(QWidget *parent) :
+Dialog_carnum.cpp:    ui(new Ui::Dialog_carnum)
+Dialog_carnum.cpp:Dialog_carnum::~Dialog_carnum()
+Dialog_carnum.cpp:void Dialog_carnum::init_page_dlg()
+Dialog_carnum.cpp:void Dialog_carnum::on_pbtn_change1_clicked()
+Dialog_carnum.cpp:void Dialog_carnum::on_pbtn_change2_clicked()
+Dialog_carnum.cpp:void Dialog_carnum::on_pbtn_change3_clicked()
+Dialog_carnum.cpp:void Dialog_carnum::on_pbtn_num1_clicked()
+Dialog_carnum.cpp:void Dialog_carnum::on_pbtn_num2_clicked()
+Dialog_carnum.cpp:void Dialog_carnum::on_pbtn_num3_clicked()
+Dialog_carnum.cpp:void Dialog_carnum::on_pbtn_num4_clicked()
+Dialog_carnum.cpp:void Dialog_carnum::on_pbtn_num5_clicked()
+Dialog_carnum.cpp:void Dialog_carnum::on_pbtn_num6_clicked()
+Dialog_carnum.cpp:void Dialog_carnum::on_pbtn_num7_clicked()
+Dialog_carnum.cpp:void Dialog_carnum::on_pbtn_num8_clicked()
+Dialog_carnum.cpp:void Dialog_carnum::on_pbtn_num9_clicked()
+Dialog_carnum.cpp:void Dialog_carnum::on_pbtn_num0_clicked()
+Dialog_carnum.cpp:void Dialog_carnum::init_page_val()
+Dialog_carnum.cpp:void Dialog_carnum::start_timer()
+Dialog_carnum.cpp:void Dialog_carnum::timer_handle()
+Dialog_carnum.cpp:void Dialog_carnum::btn_press()
+Dialog_carnum.cpp:void Dialog_carnum::update_page_info()
+Dialog_carnum.cpp:void Dialog_carnum::update_hmi_page_index(void)
+Dialog_carnum.cpp:void Dialog_carnum::exit_page_dlg()
+Dialog_carnum.cpp:void Dialog_carnum::on_pbtn_dot_clicked()
+Dialog_carnum.cpp:void Dialog_carnum::on_pbtn_back_clicked()
+Dialog_carnum.cpp:void Dialog_carnum::on_pbtn_down_clicked()
+Dialog_carnum.cpp:void Dialog_carnum::on_pbtn_up_clicked()
+Dialog_carnum.cpp:void Dialog_carnum::on_pbtn_ok_clicked()
+Dialog_carnum.cpp:void Dialog_carnum::on_pbtn_go_clicked()
+Dialog_carnum.h:class Dialog_carnum;
+Dialog_carnum.h:class Dialog_carnum : public QDialog
+Dialog_carnum.h:    explicit Dialog_carnum(QWidget *parent = 0);
+Dialog_carnum.h:    ~Dialog_carnum();
+Dialog_carnum.h:    Ui::Dialog_carnum *ui;
+Globalhmi.cpp:class Dialog_carnum                      *carnum_dlg;
+Globalhmi.h:extern class Dialog_carnum                      *carnum_dlg;
+Main_dialog.cpp:    carnum_dlg = new  Dialog_carnum;
+Ui_dialog_carnum.h:    void setupUi(QDialog *Dialog_carnum)
+Ui_dialog_carnum.h:        if (Dialog_carnum->objectName().isEmpty())
+Ui_dialog_carnum.h:            Dialog_carnum->setObjectName(QString::fromUtf8("Dialog_carnum"));
+Ui_dialog_carnum.h:        Dialog_carnum->resize(800, 480);
+Ui_dialog_carnum.h:        frame_4 = new QFrame(Dialog_carnum);
+Ui_dialog_carnum.h:        retranslateUi(Dialog_carnum);
+Ui_dialog_carnum.h:        QMetaObject::connectSlotsByName(Dialog_carnum);
+Ui_dialog_carnum.h:    void retranslateUi(QDialog *Dialog_carnum)
+Ui_dialog_carnum.h:        Dialog_carnum->setWindowTitle(QApplication::translate("Dialog_carnum", "Dialog", 0, QApplication::UnicodeUTF8));
+Ui_dialog_carnum.h:        label_2->setText(QApplication::translate("Dialog_carnum", "\350\275\246\347\211\214 \351\252\214 \350\257\201 ", 0, QApplication::UnicodeUTF8));
+Ui_dialog_carnum.h:        pbtn_go->setText(QApplication::translate("Dialog_carnum", "\345\217\226\346\266\210", 0, QApplication::UnicodeUTF8));
+Ui_dialog_carnum.h:        pbtn_down->setText(QApplication::translate("Dialog_carnum", "\344\270\213\347\277\273", 0, QApplication::UnicodeUTF8));
+Ui_dialog_carnum.h:        pbtn_ok->setText(QApplication::translate("Dialog_carnum", "\347\241\256\345\256\232", 0, QApplication::UnicodeUTF8));
+Ui_dialog_carnum.h:        pbtn_dot->setText(QApplication::translate("Dialog_carnum", "*", 0, QApplication::UnicodeUTF8));
+Ui_dialog_carnum.h:        pbtn_back->setText(QApplication::translate("Dialog_carnum", "\346\266\210\351\231\244", 0, QApplication::UnicodeUTF8));
+Ui_dialog_carnum.h:        pbtn_up->setText(QApplication::translate("Dialog_carnum", "\344\270\212\347\277\273", 0, QApplication::UnicodeUTF8));
+Ui_dialog_carnum.h:        label_3->setText(QApplication::translate("Dialog_carnum", "\350\275\246\347\211\214\345\217\267:", 0, QApplication::UnicodeUTF8));
+Ui_dialog_carnum.h:        pbtn_change2->setText(QApplication::translate("Dialog_carnum", "\345\255\227\346\257\215", 0, QApplication::UnicodeUTF8));
+Ui_dialog_carnum.h:        pbtn_change1->setText(QApplication::translate("Dialog_carnum", "\346\261\211\345\255\227", 0, QApplication::UnicodeUTF8));
+Ui_dialog_carnum.h:        pbtn_change3->setText(QApplication::translate("Dialog_carnum", "\346\225\260\345\255\227", 0, QApplication::UnicodeUTF8));
+Ui_dialog_carnum.h:        label_carnum_3->setText(QApplication::translate("Dialog_carnum", "\350\256\244\350\257\201\345\244\261\350\264\245\357\274\214\350\257\267\351\207\215\346\226\260\350\276\223\345\205\245", 0, QApplication::UnicodeUTF8));
+Ui_dialog_carnum.h:        label_carnum_4->setText(QApplication::translate("Dialog_carnum", "\350\275\246\347\211\214\344\277\241\346\201\257\357\274\232", 0, QApplication::UnicodeUTF8));
+Ui_dialog_carnum.h:    class Dialog_carnum: public Ui_Dialog_carnum {};
